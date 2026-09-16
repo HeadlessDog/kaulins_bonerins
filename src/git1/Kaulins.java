@@ -8,7 +8,7 @@ public class Kaulins {
 static void mestKaulinu(int reizes) {
 		int sk;
 		Random rand = new Random();
-		
+		//Prosta komentars jo negribu neko pievienot
 		for(int i=0; i<reizes; i++) {
 		sk = rand.nextInt(6)+1;
 		System.out.println("Uzkrita skaitlis: "+sk);
